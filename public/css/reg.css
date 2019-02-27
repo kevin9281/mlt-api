@@ -1,0 +1,130 @@
+*{
+    margin: 0;padding: 0;
+}
+body {
+    margin: 0;
+    font-family: arial,"Hiragino Sans GB","Microsoft Yahei",sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #656d78;
+    background-color: #f5f7fa;
+    position: relative;
+    min-width:1000px;
+}
+.logtop{
+    padding-top: 25px;
+    height: 95px;
+    background: #ececec;
+    border-bottom: 1px solid #d9d9d9;
+}
+div {
+    margin: 0 auto;
+    padding: 0;
+
+}
+.ulogo{
+    width: 900px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+img {
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+}
+.clearfix:before{
+    display: table;
+    content: "";
+    line-height: 0;
+}
+.clearfix:after{
+    display: block;
+    content: "";
+    clear:both;
+}
+.uallbg{
+    background-color: #F2F2F2;
+    height: auto!important;
+    height: 700px;
+    min-height: 700px;
+}
+.block950 {
+    width: 950px;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+.usbox {
+    border: 1px solid #e2e2e2;
+    width: 901px;
+}
+.usbox_2{
+    background: #fff;
+    text-align: left;
+    padding: 43px 153px 60px 123px;
+}
+.usboxtit{
+    padding-bottom: 20px;
+    line-height: 50px;
+    font-size: 28px;
+    color: #333;
+    font-family: Microsoft YaHei;
+}
+.usboxtit>span{
+    font-size: 14px;
+    font-weight: normal;
+}
+.usboxtit>span>a{
+    color: #FF7800;
+    text-decoration: underline;
+}
+.usbox_2>table{
+    width:100%;
+    border:0;
+    text-align: left;
+    border-collapse: separate;
+    border-spacing: 2px ;
+    border-color: grey;
+}
+.input1{
+    background: url(../img/head/ibg.gif) repeat-x;
+    width: 220px;
+    height: 33px;
+    line-height: 33px;
+    border: 1px solid #E0DFDF;
+    color: #a2a2a2;
+    padding-left: 5px;
+    font-size: 100%;
+    margin: 0;
+    vertical-align: baseline;
+}
+.sky{
+    height:10px;
+}
+.logbtn{
+    border: none;
+    width: 132px;
+    height: 42px;
+    background: url(../img/head/bnt_ur_reg.gif);
+}
+.f3{
+    color: #DD4250;
+    text-decoration: none;
+}
+.f3:hover{
+    color:#ff6204;
+}
+.regnow{
+    border-top: 1px dotted #eee;
+    text-align: center;
+    padding-top: 20px;
+}
+.regnow>a{
+    text-decoration: none;text-align: center
+}
+.usbox_2 table tr td span{
+    color:red !important;
+}
+.success{
+    color:green
+}

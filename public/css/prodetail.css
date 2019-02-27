@@ -1,0 +1,214 @@
+.detail_container{
+    width: 1190px;
+    height: auto;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 20px;
+    color: #656d78;
+}
+.detail_container .ur_here{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.detail_container .ur_here a{
+    font-size: 14px;
+    line-height: 20px;
+    color: #656d78;
+}
+.detail_container .ur_here a:hover{
+    color:#FF8400;
+}
+.good-pic-info{
+    width:100%;
+    display: flex;
+}
+.good-pic-info .good-pic{
+    width:65%;
+    background: white
+}
+.good-pic-info .good-pic .big-pic{
+    display: flex;
+    justify-content: space-between
+}
+.good-pic-info .good-pic big-pic img{
+    width:510px;
+}
+.good-pic-info .good-info{
+    width:35%;
+    background: white;
+    border-left: 1px solid #EDEDED;
+    padding-right: 20px;
+    padding-top: 30px;
+}
+.leftArrow{
+    margin-top: 200px;
+    margin-left: 10px;
+    display: inline-block;
+    background-image:url('../img/commom/arrow-left.png');
+    background-repeat: no-repeat;
+    height:80px;
+    width:30px;
+    opacity: 0.5;
+    border-radius: 5px;
+    cursor: pointer;
+    background-position: 50% 50%;
+}
+.rightArrow{
+    margin-top: 200px;
+    margin-right: 10px;
+    display: inline-block;
+    background-image:url('../img/commom/arrow-right.png');
+    background-repeat: no-repeat;
+    height:80px;
+    width:30px;
+    opacity: 0.5;
+    border-radius: 5px;
+    cursor: pointer;
+    background-position: 50% 50%;
+}
+.leftArrow:hover,.rightArrow:hover{
+    opacity: 0.5;
+    background-color: #656d78
+}
+.small-pic ul{
+list-style: none;
+display: flex;
+margin-top: 15px;
+justify-content: center
+}
+
+.small-pic ul li img{
+    margin-left: 10px;
+    width:60px;
+    cursor: pointer;
+    }
+.small-pic ul li img.show{
+    box-shadow:0 0 0px 5px rgba(145,155,170,0.5) 
+}
+.good-pic-info .good-info ul li{
+    margin-top: 20px;
+}
+.good-pic-info .good-info .good-title{
+    margin-left: 20px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #EDEDED;
+    margin-bottom: 10px;
+}
+
+.good-pic-info .good-info .good-title p.name{
+    color: #5E5E5E;
+    font-size: 22px;
+    line-height: 40px;
+    font-weight: bold;
+    padding: 0px 0px 5px 0px;
+}
+.good-pic-info .good-info .good-content .good-content-title{
+    margin-left: 30px;
+}
+.good-pic-info .good-info .good-content .good-newprice{
+    font-size: 18px;
+    font-weight: bold;
+    color:#ED5F11;
+}
+.good-pic-info .good-info .good-content .good-oldprice{
+    font-size: 12px;
+}
+.good-pic-info .good-info .good-content .good-stock{
+    color:#ED5F11;
+}
+.good-pic-info .good-info .good-content .good-type{
+    display: inline-block;
+    border: 2px solid  #ED5F11;
+    color:#B8B8B8;
+    cursor: pointer;
+}
+.good-pic-info .good-info .good-content .good-total{
+    font-size: 18px;
+    font-weight: bold;
+    color:#ED5F11;
+}
+.good-pic-info .good-info .good-content .good-count-less,.good-pic-info .good-info .good-content .good-count-more{
+    display: inline-block;
+    background: #ccd1d9;
+    color:white;
+    width:25px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+.good-pic-info .good-info .good-content .good-buy{
+    margin-left: 30px;
+    display: inline-block;
+    background: #ED5F11;
+    color:white;
+    width:25px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    width:150px;
+    height:50px;
+    text-align: center;
+    line-height: 50px;
+}
+.good-pic-info .good-info .good-content .good-addcart{
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    margin-left: 30px;
+    background: #ccd1d9;
+    color:white;
+    width:150px;
+    height:50px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+.good-pic-info .good-info .good-content .addwx{
+    width:200px;
+    margin-left: 18px;
+}
+.promise{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.good-detail{
+    background: white;
+}
+.good-detail ul{
+    display:flex;
+}
+.good-detail ul li h3{
+    height: 30px;
+    line-height: 25px;
+    text-align: center;
+    font-size: 18px;
+    float: left;
+    color: #666;
+    font-weight: normal;
+    margin-right: 4px;
+    padding: 0 20px;
+    cursor: pointer;
+}
+.good-detail ul li{
+    font-size: 18px;
+    color: #ccd1d9;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.good-detail ul li h3.check{
+    
+    color: #ED5F11;
+    
+}
+.good-detail{
+    text-align: center
+}
+.good-detail {
+    text-align: center
+}

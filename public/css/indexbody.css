@@ -1,0 +1,50 @@
+
+.hotgood{
+    margin:10px auto;
+    width:1190px;
+    height:711px;
+    background: #fff;
+}
+.hotgood .hd{
+    height: 50px;
+    border-bottom: 1px solid #e6e9ed;
+    line-height: 50px;
+}
+.hotgood .hd a{
+    font-size: 20px;
+    color: #656d78;
+}
+.hotgood .hd .hd1{
+    margin-left: 15px;
+}
+.hotgood .hd .hd1:hover{
+    color:#FF6204;
+}
+.hotgood>.hd>.hd2{
+    float:right;
+    margin-right: 15px;
+}
+.hotgood .hd .hd2:hover{
+    color:#FF6204;
+}
+.hotgood .bd{
+    width:100%;height:663px;
+    padding: 10px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.hotgood .bd div{
+    box-sizing: border-box;
+    height:310px;
+    overflow: hidden;
+}
+.hotgood .bd div img{
+    transition: all 0.5s linear;
+}
+.hotgood .bd>div img:hover{
+    transform: scale(1.05);
+}
+.hotgood .bd>div:hover{
+    border:#FF6204;
+}
